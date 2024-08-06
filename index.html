@@ -6,9 +6,59 @@
         body {
             background-color: white;
         }
+        .container{
+            width: 100%;
+            height: 50px;
+            background-color: rgb(255, 255, 255);
+
+        }
+
+        .header {
+            background-color: #fc6998;
+            width: 100%;
+            height: 155px;
+            line-height: 50%;
+            text-align: center;
+            margin-top: 15px;
+
+
+        }
+        #image-profile{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+        .experience{
+            margin-top: 220px;
+        }
+        hr{
+            border-color: #f74780;
+        }
+        .tittle{
+            font-size:x-large;
+        }
+        .small{
+            font-size: x-small;
+        }
     </style>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="header">
+                <img id="image-profile" src="img/image.png" alt="">
+            <h2><b>Laura Ferreira Violla</b></h2>
+            <p>Email: laura.violla@aluno.senai.br</p>
+            <p>Telefone: +55 (19) 99575-0462</p>
+            <blockquote>Criativa e extrovertida, gosto de criar coisas novas, faço o possível para que seja bem executado</blockquote>
+        </div>
+        <div class="experience">
+            <h1>Experiência Profissional</h1>
+            <hr>
+            <p class="tittle"><b>Planet Jump</b>, Shopping Valinhos- <i>Monitora</i></p>
+            <p style="color: gray;" class="small">DESDE DE ABRIL DE 2024</p>
+            <p style="color: gray;">Trabalhei no estabelecimento monitorando as crianças organizando as festas de aniversário <br/> e auxiliando na recreação com os convidados</p>
+        </div>
+    </div>
 </body>
 </html>
