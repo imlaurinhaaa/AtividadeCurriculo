@@ -3,8 +3,36 @@
 <head>
     <title>Currículo</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gaegu&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gaegu&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        .gaegu-regular {
+            font-family: "Gaegu", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .poppins-regular {
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        h1,
+        h2{
+            font-family: "Gaegu", sans-serif;
+            background-color: none;
+        }
+
+        blockquote,
+        p{
+            font-family: "Poppins", sans-serif;
+            background-color: none;
+        }
+
         body {
-            background-color: white;
+            background-color: rgb(255, 255, 255);
         }
         .container{
             width: 100%;
@@ -31,6 +59,7 @@
         }
         .experience{
             margin-top: 220px;
+            font-size: larger;
         }
         hr{
             border-color: #f74780;
@@ -41,23 +70,47 @@
         .small{
             font-size: x-small;
         }
+
+        .school{
+            margin-top: 10px;
+            font-size: larger;
+        }
+
+        .projects{
+            margin-top: 10px;
+            font-size: larger;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
                 <img id="image-profile" src="img/image.png" alt="">
-            <h2><b>Laura Ferreira Violla</b></h2>
+            <h1><b>Laura Ferreira Violla</b></h1>
             <p>Email: laura.violla@aluno.senai.br</p>
             <p>Telefone: +55 (19) 99575-0462</p>
             <blockquote>Criativa e extrovertida, gosto de criar coisas novas, faço o possível para que seja bem executado</blockquote>
         </div>
         <div class="experience">
-            <h1>Experiência Profissional</h1>
-            <hr>
+            <h1>Experiencia Profissional</h1>
             <p class="tittle"><b>Planet Jump</b>, Shopping Valinhos- <i>Monitora</i></p>
             <p style="color: gray;" class="small">DESDE DE ABRIL DE 2024</p>
             <p style="color: gray;">Trabalhei no estabelecimento monitorando as crianças organizando as festas de aniversário <br/> e auxiliando na recreação com os convidados</p>
+            <hr>
+        </div>
+        <div class="school">
+            <h1>Formacao</h1>
+            <p class="tittle"><b>SESI 299</b>, Valinhos- <i>Ensino Médio Incompleto</i></p>
+            <p style="color: gray;" class="small">DESDE DE JANEIRO DE 2016</p>
+            <p class="tittle"><b>SENAI</b>, Valinhos- <i>Segundo Semestre Incompleto</i></p>
+            <p style="color: gray;" class="small">DESDE DE JANEIRO DE 2024</p>
+            <hr>
+        </div>
+        <div class="projects">
+            <h1>Projetos</h1>
+            <p class="tittle"><b>Embaixadores do Futuro</b><i>- SESI 299</i></p>
+            <p style="color: gray;">Participei deste projeto cujo objetivo era auxiliar professores do Ensino Fundamental I. Durante minha participação, <br/>contribuímos com atividades recreativas e na organização da sala de aula.</p>
+            <hr>
         </div>
     </div>
 </body>
